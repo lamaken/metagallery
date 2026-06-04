@@ -103,21 +103,21 @@ export class Gallery extends EventEmitter {
             {
                 title: 'The Blue Horizon',
                 description: 'A mesmerizing view of endless possibilities',
-                url: '/images/artwork1.jpg',
+                url: new URL('../images/artwork1.svg', import.meta.url).href,
                 position: [0, 3, -15],
                 scale: 3
             },
             {
                 title: 'Digital Dreams',
                 description: 'Exploring the intersection of art and technology',
-                url: '/images/artwork2.jpg',
+                url: new URL('../images/artwork2.svg', import.meta.url).href,
                 position: [-15, 3, -5],
                 scale: 2.5
             },
             {
                 title: 'Ethereal Forms',
                 description: 'Abstract shapes dancing in space',
-                url: '/images/artwork3.jpg',
+                url: new URL('../images/artwork3.svg', import.meta.url).href,
                 position: [15, 3, -5],
                 scale: 2.5
             }
